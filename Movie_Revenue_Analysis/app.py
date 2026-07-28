@@ -9,7 +9,11 @@ st.set_page_config(
 st.title("🎬 Movie Revenue Analysis Dashboard")
 
 st.write("Analyze movie revenue, budget, popularity, genres and ratings.")
-df = pd.read_csv("movies.csv")
+from pathlib import Path
+import pandas as pd
+
+BASE_DIR = Path(__file__).parent
+df = pd.read_csv(BASE_DIR / "movies.csv")
 st.subheader("Dataset")
 
 st.dataframe(df)
