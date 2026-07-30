@@ -789,7 +789,7 @@ st.markdown(
 🎬 Movie Revenue Analysis Dashboard
 </h4>
 
-Built using ❤️ Streamlit | Pandas | Plotly
+Built using Streamlit | Pandas | Plotly
 
 Created by **Deekshitha**
 
